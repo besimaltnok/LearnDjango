@@ -20,3 +20,7 @@
  - wsgi.py
 * manage.py
 ```
+#### RunServer
+```python
+* python manage.py runserver 0.0.0.0:port
+```
