@@ -24,3 +24,13 @@
 ```python
 * python manage.py runserver 0.0.0.0:port
 ```
+
+#### views.py
+```python
+from django.http import HttpResponse
+from django.shortcuts import render
+
+def ana_sayfa(request):
+	message = "<center><h1>Ansayfam</h1></center>"
+	return HttpResponse(message)
+```
