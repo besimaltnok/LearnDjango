@@ -30,7 +30,19 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def ana_sayfa(request):
-	message = "<center><h1>Ansayfam</h1></center>"
+def home_page(request):
+	message = "<center><h1>Home Page</h1></center>"
 	return HttpResponse(message)
+```
+
+#### urls.py
+```python
+from django.conf.urls import url
+from django.contrib import admin
+from project_name import views
+
+urlpatterns = [
+    url(r'^admin/',  admin.site.urls),
+    url(r'^$', views.home_page)
+]
 ```
