@@ -14,3 +14,19 @@
 * views.py
 * admin.py
 ```
+
+* Add app name to settings.py
+
+```python
+
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+ 'app_name',
+)
+
+```
