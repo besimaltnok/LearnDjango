@@ -15,7 +15,7 @@
 * admin.py
 ```
 
-* Add app name to settings.py
+* Add app name to settings.py file
 
 ```python
 
